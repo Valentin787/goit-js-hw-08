@@ -13,4 +13,5 @@ player.setCurrentTime(stopTime ? stopTime : 0)
 player.on('timeupdate', throttle(onPlay, 1000));
 
 
+console.log();
 
